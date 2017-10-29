@@ -1,0 +1,48 @@
+.shadow{
+	box-shadow: 0 3px 5px -4px gray;
+}
+.title{
+	text-align: center;
+}
+.hero-bg{
+	background: url('../images/bg.png');
+	background-size: cover;
+}
+.title{
+	font-weight: 100;
+}
+.columns-width{
+	width: 1000px;
+	margin: 0 auto;
+}
+.box{
+	margin-top: 50px;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+.box .title{
+	color: #555 !important;
+}
+.box{
+	font-weight: 100;
+	border-bottom: 10px solid #23d160;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item{
+	width: 140px;
+	margin-top: 10px;
+}
+.gallery-item p{
+	margin-top: 5px;
+	text-align: center;
+}
+.gallery-item img{
+	width: 100%;
+}
+
